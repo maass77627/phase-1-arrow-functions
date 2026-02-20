@@ -1,6 +1,7 @@
-const divide = (a, b) => a / b
+let divide = function() {
+   return 2000/100
+}
 
-const square = num => num*num
+let square = num => num*num
+let add = (num, num2) => num + num2
 
-
-const add = (a,b) => a+b
